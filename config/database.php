@@ -78,6 +78,12 @@ return [
             'sslmode' => 'prefer',
         ],
 
+        'mongodb' =>[
+            'driver' => 'mongodb',
+            'dsn'=>env('MNG_DSN'),
+            'database'=>env('MNG_DATABASE', 'homestead'),
+        ],
+
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DATABASE_URL'),

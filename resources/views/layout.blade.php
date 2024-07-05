@@ -3,7 +3,7 @@
     <head>
         <title>@yield('titulo')</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="vidth=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta property="og:url" content="@yield('url')"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="@yield('titulo')"/>
@@ -112,7 +112,8 @@
     </script>
         <header>
             <nav class="menu">
-                <a href="/index">Inicio</a>
+                <a href="/">Inicio</a>
+                <a href="/login">Iniciar Sesion</a>
             </nav>
         </header>
         @yield('contenido')
