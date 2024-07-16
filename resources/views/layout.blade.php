@@ -8,7 +8,7 @@
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="@yield('titulo')"/>
         <meta property="og:image" content="https://cofeecard.proyectos-idgs-23s.com/img/logo.jpg"/>
-    </head>
+
         <style>
             body {
             background: linear-gradient(to bottom right, #e676b6, #4dcec6, #dacedd, #f73925);

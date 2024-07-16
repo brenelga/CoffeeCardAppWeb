@@ -14,6 +14,14 @@ Route::get('/signin', function(){
     return view('register');
 });
 
+Route::get('/csaldo', function(){
+    return view('consaldo');
+});
+
+Route::get('/cmov', function(){
+    return view('conmov');
+});
+
 Route::post('/sesion', [UsuarioController::class, 'login']);
 Route::get('/usuario', [UsuarioController::class, 'usuarioDashboard']);
 Route::get('/administrador', [UsuarioController::class, 'administradorDashboard']);
