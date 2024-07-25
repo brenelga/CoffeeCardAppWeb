@@ -14,7 +14,7 @@ Route::get('/signin', function(){
     return view('register');
 });
 
-Route::get('/csaldo', function(){
+Route::get('/recarga', function(){
     return view('consaldo');
 });
 

@@ -1,6 +1,6 @@
 @extends('layout')
-@section('titulo', 'Consulta de Saldo')
-@section ('url', 'consaldo')
+@section('titulo', 'Recargas con PayPal')
+@section ('url', 'recarga')
 @section('contenido')
 
 @endsection
