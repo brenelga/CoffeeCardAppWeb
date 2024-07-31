@@ -8,7 +8,7 @@
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="@yield('titulo')"/>
         <meta property="og:image" content="https://cofeecard.proyectos-idgs-23s.com/img/logo.jpg"/>
-
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
     </head>
     <body>
     <div id="fb-root"></div>

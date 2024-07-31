@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('MNG_CONNECTION', 'mongodb'),
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ return [
     */
 
     'connections' => [
-
+/*
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
@@ -77,13 +77,13 @@ return [
             'search_path' => 'public',
             'sslmode' => 'prefer',
         ],
-
+*/
         'mongodb' =>[
             'driver' => 'mongodb',
             'dsn'=>env('MNG_DSN'),
             'database'=>env('MNG_DATABASE', 'homestead'),
         ],
-
+/*
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DATABASE_URL'),
@@ -96,7 +96,7 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
         ],
-
+*/
     ],
 
     /*
